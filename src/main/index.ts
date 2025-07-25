@@ -16,7 +16,7 @@ function createWindow(): void {
     autoHideMenuBar: true,
     ...(process.platform === 'linux' ? { icon } : {}),
     center: true,
-    title: 'NoteMark',
+    title: 'Ele Notes',
     frame: true, // Use native window frame
     backgroundColor: '#18181b', // Tailwind's zinc-900
     webPreferences: {
